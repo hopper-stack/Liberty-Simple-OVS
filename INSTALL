@@ -1,0 +1,64 @@
+
+=================================
+         BUILD SEQUENCE
+=================================
+
+ Login to NTP server
+---------------------
+Unpack or scp all bulid files
+Modify variables file
+Run script
+# ./ntpserver
+
+ Login to Controller node
+--------------------------
+Unpack or scp all bulid files
+Modify variables file
+Run script
+# ./controller
+
+ Login to Compute node
+-----------------------
+Unpack or scp all bulid files
+Modify variables file
+Run script
+# ./compute
+
+ Only required for Open vSwitch not LinuxBridges
+-------------------------------------------------
+	 Login to Network node  
+	-----------------------
+	Unpack or scp all bulid files
+	Modify variables file
+	Run script
+	# ./network
+
+ Login to Block node
+---------------------
+Unpack or scp all bulid files
+Modify variables file
+Run script
+# ./block
+
+ Login to Object node #1
+-------------------------
+Unpack or scp all bulid files
+Modify variables file
+Run script
+# ./object
+
+ Login to Object node #2
+-------------------------
+Unpack or scp all bulid files
+Modify variables file
+Run script
+# ./object
+
+ Login to Controller node
+--------------------------
+Verify build
+# ./verify-build
+
+Create a test instance
+# ./create-instance
+
